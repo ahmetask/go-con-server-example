@@ -1,4 +1,3 @@
-go mod vendor
 docker build -t go-con-server .
 kubectl delete deployment go-con-server
 kubectl delete service go-con-server
